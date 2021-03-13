@@ -1,0 +1,25 @@
+{
+  "name": "Trinsic Login",
+  "version": "1.1",
+  "nonce": "641782556098382823714374",
+  "requested_attributes": {
+    "Valid Login Credential": {
+      "names": [
+        "Full Name",
+        "Account ID",
+        "Email"
+      ],
+      "restrictions": [
+        {
+          "schema_id": "3pRGFwNi74rhnpGF4Qw7Nn:2:Trinsic Login:1.1",
+          "cred_def_id": "3pRGFwNi74rhnpGF4Qw7Nn:3:CL:54564:default"
+        }
+      ]
+    }
+  },
+  "requested_predicates": {},
+  "non_revoked": {
+    "from": 0,
+    "to": 1615570526
+  }
+}

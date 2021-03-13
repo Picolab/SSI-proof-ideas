@@ -1,0 +1,27 @@
+{
+  "request_presentations~attach": [
+    {
+      "@id": "libindy-request-presentation-0",
+      "mime-type": "application/json",
+      "data": {
+        "base64": "eyJuYW1lIjoiVHJpbnNpYyBMb2dpbiIsInZlcnNpb24iOiIxLjEiLCJub25jZSI6IjY0MTc4MjU1NjA5ODM4MjgyMzcxNDM3NCIsInJlcXVlc3RlZF9hdHRyaWJ1dGVzIjp7IlZhbGlkIExvZ2luIENyZWRlbnRpYWwiOnsibmFtZXMiOlsiRnVsbCBOYW1lIiwiQWNjb3VudCBJRCIsIkVtYWlsIl0sInJlc3RyaWN0aW9ucyI6W3sic2NoZW1hX2lkIjoiM3BSR0Z3Tmk3NHJobnBHRjRRdzdObjoyOlRyaW5zaWMgTG9naW46MS4xIiwiY3JlZF9kZWZfaWQiOiIzcFJHRndOaTc0cmhucEdGNFF3N05uOjM6Q0w6NTQ1NjQ6ZGVmYXVsdCJ9XX19LCJyZXF1ZXN0ZWRfcHJlZGljYXRlcyI6e30sIm5vbl9yZXZva2VkIjp7ImZyb20iOjAsInRvIjoxNjE1NTcwNTI2fX0="
+      }
+    }
+  ],
+  "@id": "fcd12a1f-a561-4d38-82a4-d275dc121e10",
+  "@type": "did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/present-proof/1.0/request-presentation",
+  "~thread": {
+    "thid": "fcd12a1f-a561-4d38-82a4-d275dc121e10",
+    "sender_order": 0,
+    "received_orders": {}
+  },
+  "~service": {
+    "recipientKeys": [
+      "2Y4yagQw2Jdit6uTETpuVc9YTyPKnjyHuwzdbKZYABDi"
+    ],
+    "routingKeys": [
+      "D41hyNHYtdyCSuMvERwDi8JS3UaSEtfVFXJ4ybWxnut8"
+    ],
+    "serviceEndpoint": "https://api.portal.streetcred.id/agent/oEc16OI82IF5wm4nMr66Xs9P5c40x6S3"
+  }
+}

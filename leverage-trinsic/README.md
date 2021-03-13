@@ -45,3 +45,22 @@ would receive the requested proof.
 If there is already an owner pico named by the "Account ID" then we will
 log them in.
 If not, we will create a manifold account for them and log them in.
+
+### Artifacts
+
+Starting with the QR Code Trinsic uses to request a proof,
+`proof-request.png`
+you can use [ZXing decoder](https://zxing.org/w/decode.jspx)
+to find the `proof-request-url.txt`.
+
+Using a browser to visit that URL, you will see the actual
+out of band URL in your browser's location bar.
+Captured here as `proof-request-oob-url.txt` for reference.
+
+Taking the `dm` parameter, you can decode it using 
+[https://www.base64decode.org/](https://www.base64decode.org/)
+to get the DIDComm message, captured here as `proof-request.json`.
+The structure of this is defined in [Aries RFC 0037](https://github.com/Picolab/aries-rfcs/tree/master/features/0037-present-proof).
+
+One element of the request is also Base 64 encoded,
+and the decoded value is here for reference as `proof-request-presentation.json`.
